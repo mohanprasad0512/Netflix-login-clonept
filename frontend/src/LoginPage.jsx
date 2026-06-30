@@ -3,7 +3,7 @@ import { useNavigate } from "react-router-dom";
 import axios from "axios";
 import "./LoginPage.css";
 
-const API_URL = "http://localhost:4000/api/login";
+const API_URL = "https://netflix-login-clonept.onrender.com";
 
 export default function LoginPage() {
   const navigate = useNavigate();
