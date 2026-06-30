@@ -4,7 +4,9 @@ import cors from "cors";
 const app = express();
 const PORT = process.env.PORT || 4000;
 
-app.use(cors());
+app.use(cors({
+  origin: "https://mohanprasad0512.github.io",
+}));
 app.use(express.json());
 
 // --- Mock "database" of users ---
