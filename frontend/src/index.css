@@ -1,0 +1,30 @@
+:root {
+  --bg-deep: #0c0c0e;
+  --bg-panel: rgba(17, 17, 20, 0.86);
+  --accent: #ff3d57;
+  --accent-dim: #c4283d;
+  --text-primary: #f5f5f3;
+  --text-secondary: #9a9a9e;
+  --input-bg: #1d1d21;
+  --input-border: #3a3a3f;
+  --error: #ffb84d;
+  --font-display: "Fraunces", "Georgia", serif;
+  --font-body: "Inter", "Helvetica Neue", Arial, sans-serif;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html,
+body,
+#root {
+  height: 100%;
+  margin: 0;
+}
+
+body {
+  font-family: var(--font-body);
+  background: var(--bg-deep);
+  color: var(--text-primary);
+}
